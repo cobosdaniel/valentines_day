@@ -119,14 +119,14 @@ export default function App() {
     return (
       <div style={styles.page}>
         <div style={styles.card}>
-          <h1 style={styles.h1}>🔒 Valentine Page</h1>
+          <h1 style={styles.h1}>🔒 Fwitz's Valentine Page</h1>
           <p style={styles.p}>Enter the secret code to unlock the surprise.</p>
 
           <div style={{ display: "flex", gap: 10, marginTop: 12 }}>
             <input
               value={codeInput}
               onChange={(e) => setCodeInput(e.target.value)}
-              placeholder="Enter code (ex: BE_MINE)"
+              placeholder="Enter code (given to you by Fwitz)"
               style={styles.input}
             />
             <button onClick={submitCode} style={styles.primaryBtn}>
@@ -139,10 +139,6 @@ export default function App() {
               That code didn’t work. Check spelling/caps and try again.
             </p>
           )}
-
-          <p style={{ ...styles.small, marginTop: 18 }}>
-            Tip: Send them a link like <b>/?code=BE_MINE</b>.
-          </p>
         </div>
       </div>
     );
