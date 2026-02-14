@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import valentineImage from "./assets/18.jpg";
+import kitty from "./assets/kitty.jpg";
 import "./App.css";
 
 type YesResult = {
@@ -69,6 +70,30 @@ const VALID_CODES: Record<string, ValentineConfig> = {
       // redirectUrl: "https://open.spotify.com/track/..." // optional
     },
   },
+
+  PLASMAPIMP: {
+    name: "Plasma",
+    message: `PLASMA! I am so glad to have met you recently! You have been such a kind and supportive friend, and you deserve all the love in the world!
+    Although you don't have a Valentine's, I guessss ill step up and be your Valentine. Much love twin, and can't wait to watch you grow as a person and your community.
+    Much love - Fwitz`,
+    yes: {
+      title: "YUP. WE’RE LOCKED IN 😤💘",
+      image: kitty,
+      message:
+        "This is your confirmation that you’re my Valentine. No refunds, no exchanges.",
+      yesButtonLabel: "Fine… yes 💞",
+      copyReplyText: "YES 😤💘 (you got me)",
+      plan: {
+        dateIdea: "being cool chuds",
+        time: "anytime",
+        place: "on discord",
+        extra: "Stay goated queen.",
+      },
+      // redirectUrl: "https://open.spotify.com/track/..." // optional
+    },
+  },
+
+
 };
 
 function getCodeFromUrl(): string {
