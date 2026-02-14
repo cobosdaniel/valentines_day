@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import valentineImage from "./assets/18.jpg";
 import kitty from "./assets/kitty.jpg";
+import kitty2 from "./assets/kitty2.jpg";
 import "./App.css";
 
 type YesResult = {
@@ -88,6 +89,28 @@ const VALID_CODES: Record<string, ValentineConfig> = {
         time: "anytime",
         place: "on discord",
         extra: "Stay goated queen.",
+      },
+      // redirectUrl: "https://open.spotify.com/track/..." // optional
+    },
+  },
+
+  KINBARU: {
+    name: "KINBARU",
+    message: `YOU ARE NASTY ON MAGIK FIRST OF ALL. Also i recently had the priveledge to have met you, and you're a very cool and chill dude. You seem very genuine and I have no doubt you will grow into a
+    very successful content creator or anything else that you aspire to be. Hopefully this message meets your high standards LMAO. Stay a humble, handsome, cute, awesome King. Although you're the 3rd best magik behind Panu,
+    you are #1 in my heart.`,
+    yes: {
+      title: "YUP. WE’RE LOCKED IN 😤💘",
+      image: kitty2,
+      message:
+        "This is your confirmation that you’re my Valentine. No refunds, no exchanges.",
+      yesButtonLabel: "Fine… yes 💞",
+      copyReplyText: "YES 😤💘 (you got me)",
+      plan: {
+        dateIdea: "being my duo?",
+        time: "whenever i hit cel",
+        place: "on Rivals",
+        extra: "I think you have mad aura.",
       },
       // redirectUrl: "https://open.spotify.com/track/..." // optional
     },
