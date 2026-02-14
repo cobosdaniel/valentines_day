@@ -1,8 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import valentineImage from "./assets/18.jpg";
 import kitty from "./assets/kitty.jpg";
-import kitty2 from "./assets/kitty2.jpg";
-import meandkin from "./assets/meandkin.jpg";
+import meandkin from  "./assets/meandkin.jpg";
 import "./App.css";
 
 type YesResult = {
