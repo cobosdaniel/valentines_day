@@ -116,6 +116,27 @@ const VALID_CODES: Record<string, ValentineConfig> = {
     },
   },
 
+  AZU: {
+    name: "AZUNEKO",
+    message: `MY FAVORITE NEKO! Happy Valentine's Day! I hope you had a great day and hope that you have an amazing Valentine's Stream! I am so glad to have met you, you are
+    very kind and genuine. I will try my best to finish my model ASAP so that you have another neko friend to stream with! Much love - Fwitz`,
+    yes: {
+      title: "YUP. WE’RE LOCKED IN 😤💘",
+      image: kitty,
+      message:
+        "This is your confirmation that you’re my Valentine. No refunds, no exchanges.",
+      yesButtonLabel: "Fine… yes 💞",
+      copyReplyText: "YES 😤💘 (you got me)",
+      plan: {
+        dateIdea: "being cool chuds",
+        time: "anytime",
+        place: "on discord",
+        extra: "Stay goated queen.",
+      },
+      // redirectUrl: "https://open.spotify.com/track/..." // optional
+    },
+  },
+
 
 };
 
