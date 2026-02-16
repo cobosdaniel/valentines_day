@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import valentineImage from "./assets/18.jpg";
 import kitty from "./assets/kitty.jpg";
 import meandkin from  "./assets/meandkin.jpg";
+import sunflower from "./assets/20241030195233_file_67228e8193e55.avif";
 import "./App.css";
 
 type YesResult = {
@@ -144,7 +145,7 @@ const VALID_CODES: Record<string, ValentineConfig> = {
     cutie like me <3`,
     yes: {
       title: "YUP. WE’RE LOCKED IN 😤💘",
-      image: kitty,
+      image: sunflower,
       message:
         "This is your confirmation that you’re my Valentine. No refunds, no exchanges.",
       yesButtonLabel: "Fine… yes 💞",
