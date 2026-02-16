@@ -137,6 +137,28 @@ const VALID_CODES: Record<string, ValentineConfig> = {
     },
   },
 
+  NILANA: {
+    name: "NILANA",
+    message: `You absolute baddie. I am very glad i got the pleasure of meeting you. You are such a silly goober and we definitely need to run some games soon
+    You are beautiful and seem so genuine, you have a personality that seems to gravitate or draw people in. Sorry for the late Valentine's day gift but hope you can forgive a
+    cutie like me <3`,
+    yes: {
+      title: "YUP. WE’RE LOCKED IN 😤💘",
+      image: kitty,
+      message:
+        "This is your confirmation that you’re my Valentine. No refunds, no exchanges.",
+      yesButtonLabel: "Fine… yes 💞",
+      copyReplyText: "YES 😤💘 (you got me)",
+      plan: {
+        dateIdea: "being cool chuds",
+        time: "anytime",
+        place: "on discord",
+        extra: "Stay goated queen.",
+      },
+      // redirectUrl: "https://open.spotify.com/track/..." // optional
+    },
+  },
+
 
 };
 
